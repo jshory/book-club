@@ -5,9 +5,72 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  padding: 2rem;
+  /* background-color:#F3D4CF */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.active{
+  color:red;
+  text-decoration: underline;
+}
+
+.menu-option {
+  list-style: none;
+}
+
+.menu-right {
+  float: right;
+  font-size: 24px;
+}
+
+.menu-right:hover {
+  background-color: lightgrey;
+}
+
+.menu-left {
+  float: left;
+  font-size: 24px;
+}
+
+.menu-left:hover {
+  background-color: lightgrey;
+}
+
+.horizontal-list {
+  /* background-color: #CFEEF3; */
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.form-inline {
+  padding: 5px;
+}
+
+.ml-1 {
+  margin-left: 5rem !important;
+}
+
+.message {
+  color: green;
+  font-size: 22px;
+  padding-left: 10px;
+  text-align: center;
 }
